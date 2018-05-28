@@ -20,5 +20,10 @@ namespace XamarinEssentialsApp
         {
             await Navigation.PushAsync(new BatteryPage());
         }
+
+        private async void DeviceDisplayButtonOnClick(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new DeviceDisplayPage());
+        }
     }
 }

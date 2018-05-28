@@ -13,6 +13,8 @@
                 Clicked="AppInfoButtonOnClick"/>
         <Button Text="Battery"
                 Clicked="BatteryButtonOnClick" />
+        <Button Text="Device Display"
+                Clicked="DeviceDisplayButtonOnClick" />
     </StackLayout>
 
 </ContentPage>
