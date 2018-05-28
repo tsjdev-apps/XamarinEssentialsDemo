@@ -23,6 +23,8 @@
                 Clicked="GeolocationButtonOnClick" />
         <Button Text="Open Browser"
                 Clicked="OpenBrowserButtonOnClick" />
+        <Button Text="Text To Speech"
+                Clicked="TextToSpeechButtonOnClick" />
     </StackLayout>
 
 </ContentPage>

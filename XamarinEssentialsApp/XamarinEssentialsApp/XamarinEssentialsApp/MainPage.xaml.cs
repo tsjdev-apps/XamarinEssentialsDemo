@@ -45,5 +45,10 @@ namespace XamarinEssentialsApp
         {
             await Navigation.PushAsync(new OpenBrowserPage());
         }
+
+        private async void TextToSpeechButtonOnClick(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new TextToSpeechPage());
+        }
     }
 }
