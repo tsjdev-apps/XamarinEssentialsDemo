@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using XamarinEssentialsApp.Views;
 
 namespace XamarinEssentialsApp
 {
@@ -13,5 +14,10 @@ namespace XamarinEssentialsApp
 		{
 			InitializeComponent();
 		}
-	}
+
+        private async void AppInfoButtonOnClick(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new AppInfoPage());
+        }
+    }
 }
