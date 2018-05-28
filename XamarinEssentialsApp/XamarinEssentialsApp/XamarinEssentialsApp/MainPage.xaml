@@ -9,12 +9,14 @@
     	<Label Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
-        <Button Text="AppInfo"
+        <Button Text="App Info"
                 Clicked="AppInfoButtonOnClick"/>
         <Button Text="Battery"
                 Clicked="BatteryButtonOnClick" />
         <Button Text="Device Display"
                 Clicked="DeviceDisplayButtonOnClick" />
+        <Button Text="Device Info"
+                Clicked="DeviceInfoButtonOnClick" />
     </StackLayout>
 
 </ContentPage>

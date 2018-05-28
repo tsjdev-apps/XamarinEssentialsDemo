@@ -25,5 +25,10 @@ namespace XamarinEssentialsApp
         {
             await Navigation.PushAsync(new DeviceDisplayPage());
         }
+
+        private async void DeviceInfoButtonOnClick(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new DeviceInfoPage());
+        }
     }
 }
