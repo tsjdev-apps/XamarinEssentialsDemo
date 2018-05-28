@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinEssentialsApp.Views.DeviceInfoPage"
+             Title="Device Info">
+
+    <ContentPage.Content>
+        <StackLayout Margin="12">
+            <Label Text="Device:"
+                   Style="{StaticResource HeaderLabelStyle}" />
+            <Label x:Name="DeviceLabel"
+                   Style="{StaticResource InfoLabelStyle}" />
+            <Label Text="Manufacturer:"
+                   Style="{StaticResource HeaderLabelStyle}" />
+            <Label x:Name="ManufacturerLabel"
+                   Style="{StaticResource InfoLabelStyle}" />
+            <Label Text="Device Name:"
+                   Style="{StaticResource HeaderLabelStyle}" />
+            <Label x:Name="DeviceNameLabel"
+                   Style="{StaticResource InfoLabelStyle}" />
+            <Label Text="Version:"
+                   Style="{StaticResource HeaderLabelStyle}" />
+            <Label x:Name="VersionLabel"
+                   Style="{StaticResource InfoLabelStyle}" />
+            <Label Text="Platform:"
+                   Style="{StaticResource HeaderLabelStyle}" />
+            <Label x:Name="PlatformLabel"
+                   Style="{StaticResource InfoLabelStyle}" />
+            <Label Text="Idiom:"
+                   Style="{StaticResource HeaderLabelStyle}" />
+            <Label x:Name="IdiomLabel"
+                   Style="{StaticResource InfoLabelStyle}" />
+            <Label Text="Device Type:"
+                   Style="{StaticResource HeaderLabelStyle}" />
+            <Label x:Name="DeviceTypeLabel"
+                   Style="{StaticResource InfoLabelStyle}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
