@@ -5,12 +5,13 @@
              Title="Text To Speech">
 
     <ContentPage.Content>
-        <StackLayout Margin="12"
-                     Spacing="10">
-            <Entry x:Name="TextToSpeechEntry"
-                   Placeholder="What should I say?" />
-            <Button Text="Speak"
-                    Clicked="SpeakButtonClicked" />
-        </StackLayout>
+        <ScrollView Margin="12">
+            <StackLayout Spacing="10">
+                <Entry x:Name="TextToSpeechEntry"
+                       Placeholder="What should I say?" />
+                <Button Text="Speak"
+                        Clicked="SpeakButtonClicked" />
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

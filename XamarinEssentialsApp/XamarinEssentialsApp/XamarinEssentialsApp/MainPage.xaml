@@ -1,16 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:XamarinEssentialsApp"
-             x:Class="XamarinEssentialsApp.MainPage">
+             x:Class="XamarinEssentialsApp.MainPage"
+             Title="Main">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-    	<Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+    <StackLayout Margin="12"
+                 Spacing="6">
+        <Label Text="Welcome to Xamarin.Essentials!"
+               FontSize="Large"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
         <Button Text="App Info"
-                Clicked="AppInfoButtonOnClick"/>
+                Clicked="AppInfoButtonOnClick" />
         <Button Text="Battery"
                 Clicked="BatteryButtonOnClick" />
         <Button Text="Device Display"

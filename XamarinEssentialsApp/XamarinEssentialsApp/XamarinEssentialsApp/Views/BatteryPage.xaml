@@ -5,19 +5,21 @@
              Title="Battery">
 
     <ContentPage.Content>
-        <StackLayout Margin="12">
-            <Label Text="Battery Level:"
-                   Style="{StaticResource HeaderLabelStyle}" />
-            <Label x:Name="BatteryLevelLabel"
-                   Style="{StaticResource InfoLabelStyle}" />
-            <Label Text="Battery State:"
-                   Style="{StaticResource HeaderLabelStyle}" />
-            <Label x:Name="BatteryStateLabel"
-                   Style="{StaticResource InfoLabelStyle}" />
-            <Label Text="Battery Power Source:"
-                   Style="{StaticResource HeaderLabelStyle}" />
-            <Label x:Name="BatteryPowerSourceLabel"
-                   Style="{StaticResource InfoLabelStyle}" />
-        </StackLayout>
+        <ScrollView Margin="12">
+            <StackLayout>
+                <Label Text="Battery Level:"
+                       Style="{StaticResource HeaderLabelStyle}" />
+                <Label x:Name="BatteryLevelLabel"
+                       Style="{StaticResource InfoLabelStyle}" />
+                <Label Text="Battery State:"
+                       Style="{StaticResource HeaderLabelStyle}" />
+                <Label x:Name="BatteryStateLabel"
+                       Style="{StaticResource InfoLabelStyle}" />
+                <Label Text="Battery Power Source:"
+                       Style="{StaticResource HeaderLabelStyle}" />
+                <Label x:Name="BatteryPowerSourceLabel"
+                       Style="{StaticResource InfoLabelStyle}" />
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

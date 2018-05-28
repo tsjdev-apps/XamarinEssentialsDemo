@@ -3,14 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinEssentialsApp.Views.GeolocationPage"
              Title="Geolocation">
-    
+
     <ContentPage.Content>
-        <StackLayout Margin="12"
-                     Spacing="10">
-            <Button Text="Get Last Known Location" 
-                    Clicked="GetLastKnownLocationButtonOnClicked"/>
-            <Button Text="Get Location" 
-                    Clicked="GetLocationButtonOnClicked"/>
-        </StackLayout>
+        <ScrollView Margin="12">
+            <StackLayout Spacing="10">
+                <Button Text="Get Last Known Location"
+                        Clicked="GetLastKnownLocationButtonOnClicked" />
+                <Button Text="Get Location"
+                        Clicked="GetLocationButtonOnClicked" />
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
