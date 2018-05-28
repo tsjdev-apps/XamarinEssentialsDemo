@@ -35,5 +35,10 @@ namespace XamarinEssentialsApp
         {
             await Navigation.PushAsync(new EmailPage());
         }
+
+        private async void GeolocationButtonOnClick(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new GeolocationPage());
+        }
     }
 }

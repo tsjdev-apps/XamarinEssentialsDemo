@@ -19,6 +19,8 @@
                 Clicked="DeviceInfoButtonOnClick" />
         <Button Text="Email"
                 Clicked="EmailButtonOnClick" />
+        <Button Text="Geolocation"
+                Clicked="GeolocationButtonOnClick" />
     </StackLayout>
 
 </ContentPage>
