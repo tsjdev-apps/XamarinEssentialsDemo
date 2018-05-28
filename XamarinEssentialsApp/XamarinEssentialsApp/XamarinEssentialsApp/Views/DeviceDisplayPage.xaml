@@ -26,7 +26,6 @@
                    Style="{StaticResource HeaderLabelStyle}" />
             <Label x:Name="DensityLabel"
                    Style="{StaticResource InfoLabelStyle}" />
-
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
