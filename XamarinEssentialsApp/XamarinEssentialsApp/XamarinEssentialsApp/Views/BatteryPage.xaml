@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinEssentialsApp.Views.BatteryPage"
+             Title="Battery">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="HeaderLabelStyle"
+                   TargetType="Label">
+                <Setter Property="FontAttributes"
+                        Value="Bold" />
+                <Setter Property="FontSize"
+                        Value="20" />
+            </Style>
+            <Style x:Key="InfoLabelStyle"
+                   TargetType="Label">
+                <Setter Property="FontAttributes"
+                        Value="Italic" />
+                <Setter Property="FontSize"
+                        Value="16" />
+                <Setter Property="Margin"
+                        Value="0,0,0,12" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout Margin="12">
+            <Label Text="Battery Level:"
+                   Style="{StaticResource HeaderLabelStyle}" />
+            <Label x:Name="BatteryLevelLabel"
+                   Style="{StaticResource InfoLabelStyle}" />
+            <Label Text="Battery State:"
+                   Style="{StaticResource HeaderLabelStyle}" />
+            <Label x:Name="BatteryStateLabel"
+                   Style="{StaticResource InfoLabelStyle}" />
+            <Label Text="Battery Power Source:"
+                   Style="{StaticResource HeaderLabelStyle}" />
+            <Label x:Name="BatteryPowerSourceLabel"
+                   Style="{StaticResource InfoLabelStyle}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
