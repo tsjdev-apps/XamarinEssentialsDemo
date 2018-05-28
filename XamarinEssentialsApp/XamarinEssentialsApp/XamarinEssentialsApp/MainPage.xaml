@@ -17,6 +17,8 @@
                 Clicked="DeviceDisplayButtonOnClick" />
         <Button Text="Device Info"
                 Clicked="DeviceInfoButtonOnClick" />
+        <Button Text="Email"
+                Clicked="EmailButtonOnClick" />
     </StackLayout>
 
 </ContentPage>

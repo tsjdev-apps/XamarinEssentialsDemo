@@ -30,5 +30,10 @@ namespace XamarinEssentialsApp
         {
             await Navigation.PushAsync(new DeviceInfoPage());
         }
+
+        private async void EmailButtonOnClick(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new EmailPage());
+        }
     }
 }
