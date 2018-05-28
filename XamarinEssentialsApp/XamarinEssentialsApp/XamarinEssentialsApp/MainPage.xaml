@@ -11,6 +11,8 @@
            VerticalOptions="CenterAndExpand" />
         <Button Text="AppInfo"
                 Clicked="AppInfoButtonOnClick"/>
+        <Button Text="Battery"
+                Clicked="BatteryButtonOnClick" />
     </StackLayout>
 
 </ContentPage>
