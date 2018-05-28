@@ -40,5 +40,10 @@ namespace XamarinEssentialsApp
         {
             await Navigation.PushAsync(new GeolocationPage());
         }
+
+        private async void OpenBrowserButtonOnClick(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new OpenBrowserPage());
+        }
     }
 }

@@ -21,6 +21,8 @@
                 Clicked="EmailButtonOnClick" />
         <Button Text="Geolocation"
                 Clicked="GeolocationButtonOnClick" />
+        <Button Text="Open Browser"
+                Clicked="OpenBrowserButtonOnClick" />
     </StackLayout>
 
 </ContentPage>
