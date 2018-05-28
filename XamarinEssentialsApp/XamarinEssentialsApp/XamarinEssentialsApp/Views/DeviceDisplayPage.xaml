@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinEssentialsApp.Views.DeviceDisplayPage"
+             Title="Device Display">
+
+    <ContentPage.Content>
+        <ScrollView Margin="12">
+            <StackLayout>
+                <Label Text="Orientation:"
+                       Style="{StaticResource HeaderLabelStyle}" />
+                <Label x:Name="OrientationLabel"
+                       Style="{StaticResource InfoLabelStyle}" />
+                <Label Text="Rotation:"
+                       Style="{StaticResource HeaderLabelStyle}" />
+                <Label x:Name="RotationLabel"
+                       Style="{StaticResource InfoLabelStyle}" />
+                <Label Text="Screen Width:"
+                       Style="{StaticResource HeaderLabelStyle}" />
+                <Label x:Name="ScreenWidthLabel"
+                       Style="{StaticResource InfoLabelStyle}" />
+                <Label Text="Screen Height:"
+                       Style="{StaticResource HeaderLabelStyle}" />
+                <Label x:Name="ScreenHeightLabel"
+                       Style="{StaticResource InfoLabelStyle}" />
+                <Label Text="Density:"
+                       Style="{StaticResource HeaderLabelStyle}" />
+                <Label x:Name="DensityLabel"
+                       Style="{StaticResource InfoLabelStyle}" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinEssentialsApp.Views.AppInfoPage"
+             Title="AppInfo">
+
+    <ContentPage.Content>
+        <ScrollView Margin="12">
+            <StackLayout>
+                <Label Text="App Name:"
+                       Style="{StaticResource HeaderLabelStyle}" />
+                <Label x:Name="AppNameLabel"
+                       Style="{StaticResource InfoLabelStyle}" />
+                <Label Text="Package Name:"
+                       Style="{StaticResource HeaderLabelStyle}" />
+                <Label x:Name="PackageNameLabel"
+                       Style="{StaticResource InfoLabelStyle}" />
+                <Label Text="Version:"
+                       Style="{StaticResource HeaderLabelStyle}" />
+                <Label x:Name="VersionLabel"
+                       Style="{StaticResource InfoLabelStyle}" />
+                <Label Text="Build:"
+                       Style="{StaticResource HeaderLabelStyle}" />
+                <Label x:Name="BuildLabel"
+                       Style="{StaticResource InfoLabelStyle}" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

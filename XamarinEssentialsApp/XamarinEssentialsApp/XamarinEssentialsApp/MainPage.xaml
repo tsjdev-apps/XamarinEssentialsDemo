@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinEssentialsApp.MainPage"
+             Title="Main">
+
+    <StackLayout Margin="12"
+                 Spacing="6">
+        <Label Text="Welcome to Xamarin.Essentials!"
+               FontSize="Large"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+        <Button Text="App Info"
+                Clicked="AppInfoButtonOnClick" />
+        <Button Text="Battery"
+                Clicked="BatteryButtonOnClick" />
+        <Button Text="Device Display"
+                Clicked="DeviceDisplayButtonOnClick" />
+        <Button Text="Device Info"
+                Clicked="DeviceInfoButtonOnClick" />
+        <Button Text="Email"
+                Clicked="EmailButtonOnClick" />
+        <Button Text="Geolocation"
+                Clicked="GeolocationButtonOnClick" />
+        <Button Text="Open Browser"
+                Clicked="OpenBrowserButtonOnClick" />
+        <Button Text="Text To Speech"
+                Clicked="TextToSpeechButtonOnClick" />
+    </StackLayout>
+
+</ContentPage>
